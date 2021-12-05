@@ -70,11 +70,13 @@ button {
     background-color: #3882f6;
     color: white;
     text-align: center;
+    font-size: 18px;
+    font-weight: 700;
     padding: 0;
     border: none;
     border-radius: 5px;
-    width: 75px;
-    height: 25px;
+    width: 150px;
+    height: 40px;
 }
 
 .information {
@@ -140,3 +142,31 @@ h3 {
     font-weight: 800;
     font-style: normal;
 }
+
+.action_section {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.action_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882f6;
+    height: 175px;
+    width: 1000px;
+    border-radius: 10px;
+}
+
+.action_box button {
+    border-color: white;
+    border-style: solid;
+}
+
+.action_info {
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
