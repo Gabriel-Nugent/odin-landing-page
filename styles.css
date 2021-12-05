@@ -112,3 +112,31 @@ h3 {
     height: 200px;
     width: 200px;
 }
+
+.quote_section { 
+    display: flex;
+    background-color: #e5e7eb;
+    align-items: center;
+    justify-content: center;
+    padding: 120px;
+}
+
+.quote_container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 800px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1f2937;
+}
+
+.quote_name {
+    padding: 0;
+    margin: 0;
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 800;
+    font-style: normal;
+}
