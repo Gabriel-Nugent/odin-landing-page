@@ -76,3 +76,39 @@ button {
     width: 75px;
     height: 25px;
 }
+
+.information {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.card_container {
+    display: flex;
+    padding: 30px;
+    gap: 80px;
+}
+
+.cards {
+    display: flex;
+    color: grey;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+}
+
+.cards .image {
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+}
